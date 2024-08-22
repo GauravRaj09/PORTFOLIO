@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(223, 223, 223);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+
+}
+#bg-head{
+background-image: url("https://wallpaperset.com/w/full/c/5/a/45322.jpg");
+height: 250px;
+background-repeat: no-repeat;
+background-size: cover;
+z-index: 1;
+}
+#left-nav{
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+#about, #projects, #contact, #iglogo, #github{
+    margin: 10px 12px;
+    font-weight: bold;
+    transition: .25s;
+}
+#iglogo{
+ animation-name: ig;
+ animation-duration: 3s;
+}
+
+#iglogo:hover, #github:hover, #about:hover, #projects:hover, #contact:hover {
+    color: rgb(255, 0, 0);
+    transform: scale(1.11);
+}
+
+#left-nav a{
+    color: white;
+    text-decoration: none;
+}
+#icon{
+    margin: 0px;
+    font-size: 20px;
+    position: relative;
+    font-weight: bold;
+}
+#profile{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    bottom: 100px;
+    z-index: 1;
+    margin-bottom: 15px;
+}
+#itachi_img{
+    height: 250px;
+    transition: .15s ease-in;
+}
+#itachi_img:hover{
+    transform: scale(1.089);
+    -webkit-filter: drop-shadow(0px 0px 8px red) 
+                 drop-shadow(0px 0px 5px ); 
+  filter: drop-shadow(0px 0px 8px red) 
+  drop-shadow(0px 0px 5px );
+}
+#name{
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    font-size: 30px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: lighter;
+    z-index: 1;
+    color: rgb(95, 95, 95);
+}
+
+#p01{
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: rgb(95, 95, 95);
+    font-size: 22px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 50px;
+}
+#p02{
+    text-align: center;
+    font-family: Advent Pro;
+    color: rgb(95, 95, 95);
+    position: relative;
+    bottom: 50px;
+}
+hr{
+    border: 1px red solid;
+    position: relative;
+}
+
+#recents{
+    display: flex;
+    margin: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: fit-content;
+}
+#recent-text{
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(95, 95, 95);
+    margin: 10px;
+}
+#box01{
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    margin: 10px;
+    border-radius: 5px;
+    background-image: url("https://marisafund.org/wp-content/uploads/2023/01/Amazon-Logo-Square_82334d21a.jpg");
+    background-size: cover;
+    transition: .25s;
+}
+#box02{
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    margin: 10px;
+    border-radius: 5px;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/641/301/original/vector-web-login-form-template.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: .25s;
+    @media screen and (max-width: 579px) {
+        margin: 50px 10px 10px 10px
+        
+    }
+}
+#box01:hover, #box02:hover{
+    transform: scale(1.05);
+}
+#link05{
+    color: rgb(95, 95, 95);
+    text-decoration: underline  1px;
+    font-size: 25px;
+    position: relative;
+    top: 260px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+}
+#link06{
+    color: rgb(95, 95, 95);
+    text-decoration: underline  1px;
+    font-size: 25px;
+    position: relative;
+    top: 260px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+}
+footer{
+    height: 200px;
+    background-image: url("https://a-static.besthdwallpaper.com/naruto-s-itachi-uchiha-wallpaper-3840x1080-6551_75.jpg");
+    margin-top: 40px;
+    background-size: cover;
+}
+
+#right-nav{
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+#right-nav a{
+    color: white;
+    text-decoration:none;
+}

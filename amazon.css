@@ -1,0 +1,705 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.navbar{
+    background-color: rgb(24, 24, 24);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+#logo_box{
+    display: flex;
+    align-items: center;
+    margin: 1px 0px 0px 1px;
+    padding: 4px 0px 0px 0px;
+    height: 50px;
+    border: 1.5px solid rgba(0, 0, 0, 0);
+   
+}
+#logo_box:hover{
+    border: 1.5px solid white;
+ border-radius: 5px;
+}
+#logo{
+    width: 100px;
+    padding: 1px 8px 0px 1px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.address{
+    border: 1.5px solid rgba(255, 255, 255, 0);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 55px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.address:hover{
+    border: 1.5px solid rgb(255, 255, 255);
+    border-radius: 5px;
+
+}
+#add01{
+    padding-right: 2px;
+    margin-left: 17px;
+    font-size: 12px;
+    color: #cccccc;
+    display: inline;
+}
+#add02{
+    display: flex;
+    font-size: 14px;
+    padding-left: 3px;
+}
+#country{
+    margin-left: 5px;
+}
+
+.searchbar{
+display: flex;
+align-items: center;
+margin-left: 10px;
+margin-right: 10px;
+height: 40px;
+margin: 0px 5px;
+}
+.searchbar:hover{
+    border: 2px solid orange;
+    border-radius: 7px;}
+#search{
+    height: 40px;
+    width: 750px;
+    border-radius: 0px;
+    border: none;
+    font-size: 1rem;
+    padding-left: 10px;
+    border: 3px solid transparent;
+}
+
+select{
+    height: 40px;
+    width: 51px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #f3f3f3;
+    border: none;
+    color: rgb(92, 91, 91);
+    border: 3px solid rgba(255, 166, 0, 0);
+
+}
+select:active{
+    border: 3px solid orange;
+}
+
+#button01{
+    height: 40px;
+    width: 45px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(255, 196, 0);
+    border: none;
+}
+button:active{
+    border: 2px solid rgb(255, 181, 44);
+}
+#search_logo{
+    width: 40px;
+    font-size:1.6rem;
+}
+
+.flag-lang{
+    display: flex;
+    align-items: center;
+    margin: 0px 20px;
+    height: 53px;
+    padding: 2px;
+    border: 1.5px solid transparent;
+}
+.flag-lang:hover{
+    border: 1.5px solid white;
+    border-radius:5px;
+}
+#flag02{
+    width: 20px;
+}
+#lang{
+    margin-left: 5px;
+}
+
+.right-nav{
+border: 1.5px solid transparent;
+height: 50px;
+padding: 4px;
+margin: 1px 10px 1px 10px;
+padding-top: 2px;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.right-nav:hover{
+    border: 1.5px solid white;
+    border-radius: 5px;
+}
+#signin{
+    font-size: 12px; 
+}
+#account a{
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+#signin a{
+    text-decoration: none;
+    color: white;
+}
+.right1-nav{
+    border: 1.5px solid transparent;
+    height: 50px;
+    padding: 4px;
+    margin: 1px 10px 1px 10px;
+    padding-top: 2px;
+    display: flex;
+    align-items: center;
+    }
+.right1-nav:hover{
+        border: 1.5px solid white;
+        border-radius: 5px;
+    }
+#Return{
+    font-size: 12px;
+}
+#Order a{
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+#Return a{
+    text-decoration: none;
+    color: white;
+}
+
+#cart{
+    font-size: 1.6rem;
+    margin: 1px 2px 1px 5px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    border: 1.5px solid transparent;
+    padding: 5px;
+}
+
+/**                               HOVER                                      **/
+#cart:hover, #right01:hover, #deals:hover, #Service:hover, #Gift:hover, #Register:hover, #Sell:hover{
+    border: 1.5px solid white;
+    border-radius: 5px;
+}
+#cart01{
+    font-size: 14px;
+    font-weight: 700px;
+    text-align:center;
+}
+
+.content-nav{
+    background-color: #222f3d;
+    height: 40px;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+#right01{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding: 3px 5px 3px 1px;
+    border: 1.5px solid transparent;
+    margin: 0px 10px 0px 2px;
+}
+#bars{
+    padding: 2px 5px;
+    font-size: 1.4rem;
+    margin: 1px 3px 1px 5px;
+    color: #ffffff;
+}
+#p01{
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#deals{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    padding: 2px 5px;
+    margin: 0px 10px;
+}
+#Service{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    padding: 2px 5px;
+    margin: 0px 10px;
+}
+#Sell{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    padding: 2px 10px;
+    margin: 0px 10px;
+}
+#Register{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    padding: 2px 5px;
+    margin: 0px 10px;
+}
+#Gift{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    padding: 2px 5px;
+    margin: 0px 10px;
+}
+#link01{
+    text-decoration: none;
+    color: white;
+}
+
+.content{
+    background-image: url(https://m.media-amazon.com/images/I/71KfZkbgStL._SX3000_.jpg);
+    height: 325px;
+    background-size: cover;
+    background-color: white;
+}
+#text02{
+    background-color: white;
+    height: 40px;
+    width: 1420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 30px;
+    top: 345px;
+}
+#text02 a{
+    text-decoration: none;
+    color: #007185;
+
+}
+
+
+.main{
+    background-color:rgb(220, 218, 218);}
+.cards{
+    background-color:rgb(220, 218, 218);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}.card{
+    width: 343px;
+    padding: 0px 10px;
+    margin-top: 20px;
+}
+#card01, #card011{
+    height: 420px;
+    width: 343px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#card02, #card022{
+    height: 420px;
+    width: 343px;
+    background-color: rgb(252, 253, 255);
+    padding-top: 10px;
+
+} 
+#card03, #card033{
+    height: 420px;
+    width: 343px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 10px;
+}
+#card04, #card044{
+    height: 420px;
+    width: 343px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 10px;
+}
+
+/* #card01:hover, #card02:hover, #card03:hover, #card04:hover{
+    border: 5px solid orange;
+    border-radius: 10px;
+} */
+
+
+#Space{
+    height:315px ;
+    width: 303px;
+    background-image:url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v1._SY304_CB573698005_.jpg") ;
+    background-size: cover;
+    margin: 2px 10px 2px 20px;
+
+}
+#music{
+    height:315px ;
+    width: 303px;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/Easter/Fuji_Easter_Dash_card_1x_EN._SY304_CB581341381_.jpg");
+    background-size: cover;
+    margin: 2px 10px 2px 20px;
+    display: flex;
+    align-items: center;
+
+}
+#watch01{
+    height:315px ;
+    width: 303px;
+    background-image: url("https://m.media-amazon.com/images/I/81G0yGod43L._AC_SX466_.jpg");
+    background-size: cover;
+    margin: 2px 10px 2px 20px;
+    display: flex;
+    align-items: center;
+
+}
+#shop{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #007185;
+    font-size:13px;
+}
+#link03 {
+     color: #007185;
+     text-decoration: none;
+}
+
+#smartwatches{
+    height:315px ;
+    width: 303px;
+    background-image:url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_SmartWatch_1X._SY304_CB639922137_.jpg") ;
+    background-size: cover;
+    margin: 2px 10px 2px 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+#d04{
+    height:315px ;
+    width: 303px;
+    background-image:url("https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2023/img/Consumer_Electronics/XCM_CUTTLE_1546843_2940864_379x304_1X_en_US._SY304_CB613273467_.jpg") ;
+    background-size: cover;
+    margin: 2px 10px 2px 20px;
+    display: flex;
+    align-items: center;
+
+}
+#d05{
+    height:315px ;
+    width: 303px;
+    background-image:url("https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2023/img/Consumer_Electronics/XCM_CUTTLE_1622892_3373436_379x304_1X_en_US._SY304_CB597161294_.jpg") ;
+    background-size: cover;
+    margin: 2px 10px 2px 20px;
+    display: flex;
+    align-items: center;
+
+}
+#d06{
+    height:315px ;
+    width: 303px;
+    background-image:url("https://images-na.ssl-images-amazon.com/images/G/01/us-manual-merchandising/RBS-in-house-Graphics/cc_359_laptop_us_v1._SY304_CB576754001_.jpg") ;
+    background-size: cover;
+    margin: 2px 10px 2px 20px;
+    display: flex;
+    align-items: center;
+
+}
+#d07{
+    height:315px ;
+    width: 303px;
+    background-image:url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v10._SY304_CB573698005_.jpg") ;
+    background-size: cover;
+    margin: 2px 10px 2px 20px;
+    display: flex;
+    align-items: center;
+
+}
+#smartwatches{
+    height:315px ;
+    width: 303px;
+    background-image:url("https://images-na.ssl-images-amazon.com/images/G/01/us-manual-merchandising/XCM_CUTTLE_1622894_3373440_379x304_1X_en_size1_US._SY304_CB597469214_.jpg") ;
+    background-size: cover;
+    margin: 2px 10px 2px 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+#linebr{
+    height: 20px;
+    background-color: rgb(220, 218, 218);
+}
+.slide_card{
+    background-color: rgb(220, 218, 218);
+    border: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#cards02{
+    display: flex;
+}
+
+#background01{
+height: 280px;
+width: 1432px;
+background-color: rgb(255, 255, 255);
+
+}
+#h201{
+    font-size: 21px;
+    position: relative;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#slide01{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    margin-top: 2px;
+    background-image: url(https://m.media-amazon.com/images/I/71fq7kscxNL._AC_SY200_.jpg);
+    background-size:cover ;
+    background-repeat: no-repeat;
+}
+
+#slide02{
+    height: 200px;
+    width: 230px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    margin-top: 2px;
+    background-image: url(https://m.media-amazon.com/images/I/81Y26toqdTL._AC_SY200_.jpg);
+    background-repeat: no-repeat;
+}
+#slide03{
+    height: 200px;
+    width: 125px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    margin-top: 2px;
+    background-image:url(https://m.media-amazon.com/images/I/61Denlo-ceL._AC_SY200_.jpg) ;
+    background-repeat: no-repeat;
+}
+#slide04{
+    height: 200px;
+    width: 190px;
+    background-color: rgb(244, 255, 249);
+    margin: 20px;
+    margin-top: 2px;
+    background-image:url(https://m.media-amazon.com/images/I/81ARh719W9L._AC_SY200_.jpg) ;
+    background-repeat: no-repeat;
+}
+#slide05{
+    height: 200px;
+    width: 68px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    margin-top: 2px;
+    background-image:url(https://m.media-amazon.com/images/I/51SxIyLWwUL._AC_SY200_.jpg) ;
+    background-repeat: no-repeat;
+}
+#slide06{
+    height: 103px;
+    width: 270px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    margin-top: 2px;
+    background-image:url(https://m.media-amazon.com/images/I/91yuQpw++mL._AC_SY200_.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 50px;
+    position: relative;
+}
+#slide07{
+    height: 200px;
+    width:78px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    margin-top: 2px;
+    background-image:url(https://m.media-amazon.com/images/I/619fJAHoEzL._AC_SY200_.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Space01{
+    height:315px ;
+    width: 303px;
+    background-image:url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v1._SY304_CB573698005_.jpg") ;
+    background-size: cover;
+    margin: 2px 10px 2px 20px;
+
+}
+#music01{
+    height:315px ;
+    width: 303px;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/Easter/Fuji_Easter_Dash_card_1x_EN._SY304_CB581341381_.jpg");
+    background-size: cover;
+    margin: 2px 10px 2px 20px;
+    display: flex;
+    align-items: center;
+
+}
+#watch02{
+    height:315px ;
+    width: 303px;
+    background-image: url("https://m.media-amazon.com/images/I/81G0yGod43L._AC_SX466_.jpg");
+    background-size: cover;
+    margin: 2px 10px 2px 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+#smartwatches01{
+    height:315px ;
+    width: 303px;
+    background-image:url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_SmartWatch_1X._SY304_CB639922137_.jpg") ;
+    background-size: cover;
+    margin: 2px 10px 2px 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+#new{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    margin: 20px 0px;
+    padding: 20px;
+}
+
+#p03{
+    font-size: 13px;
+
+}
+#b01{
+    width: 230px;
+    height: 28px;
+    font-weight: 700;
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+#register{
+    font-size: 11px;
+}
+#link05{
+    color: #007185;
+    text-decoration: none;
+}
+#link05:hover{
+    color: red;
+}
+
+#top{
+    background-color: #36485d;
+    height: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#top:hover{
+    background-color: #2f3c4d;
+}
+#link04{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+#arrow{
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+
+.footer{
+    background-color: #232f3e;
+    color: white;
+    height: 490px;
+}
+
+#info01{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.foot{
+    padding: 20px 10px 0px 10px;
+    height: 300px;
+    margin: 0px 80px 0px 80px;
+    position: relative;
+    top: 20px;
+    
+}
+.foot h3{
+    font-size: 16px;
+    font-weight: 700;
+    margin: 10px 0px 15px 10px;
+}
+.foot p{
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #c7c7c7;
+}
+.foot p a{
+    color:#c7c7c7 ;
+    text-decoration: none;
+}
+#options{
+    height: 68px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 0.1px solid rgb(168, 168, 168);
+}
+
+#copyright{
+    height: 90px;
+    background-color: #131a22;
+}
